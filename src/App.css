@@ -878,7 +878,9 @@ input::placeholder{
         flex-direction: column;
     }
     .addcart-container-img img{
-        margin: 50px 0;
+        margin:0 270px;
+        margin-bottom:50px ;
+        width: 245px;
     }
     .addcart-button{
         display: flex;
@@ -891,6 +893,8 @@ input::placeholder{
         justify-content: center;
         align-items: center;
         margin-left: 200px;
+        width: 300px;
+        font-size: 16px;
     }
     .addcart-container-reviews{
         top: 90%;
@@ -903,6 +907,11 @@ input::placeholder{
         display: none;
     }
     .info1-title{
+        width: 300px;
+    }
+    .info2{
+        margin: 0;
+        margin-left: 150px;
         width: 300px;
     }
     .info2-card{
@@ -960,9 +969,6 @@ input::placeholder{
     .form-title h2{
         font-size: 40px;
         width: 300px;
-    }
-    .form-container{
-        margin-left: 100px;
     }
     .footer{
         display: flex;
