@@ -682,6 +682,20 @@ input::placeholder{
         justify-content: center;
         align-items: center;
     }
+    .addcart-container-img{
+        width: 700px;
+    }
+    .addcart-container-img img {
+        margin-right: 10px;
+    }
+    .addcart-price-paraf{
+        font-size: 25px;
+        text-align: center;
+        width: 600px;
+    }
+    .addcart-button{
+        width: 700px;
+    }
     .addcart-container-price-content{
         display: flex;
         justify-content: center;
@@ -739,16 +753,22 @@ input::placeholder{
         align-items: center;
     }
     .info1-title{
-        top: 70%;
-        right: 10%;
+        width: 300px;
+        top: 80%;
+        right: 20%;
     }
     .info1-paraf{
         top: 70%;
         left: 10%;
     }
     .info2{
+        width: 700px;
         height: 700px;
         margin-top: 50px;
+    }
+    .info2-card{
+        width: 700px;
+        margin-right: 200px;
     }
     .info2 .info2-card{
         display: flex;
@@ -782,8 +802,8 @@ input::placeholder{
     }
     .form-container{
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
     }
     .footer{
         height: auto;
@@ -798,7 +818,7 @@ input::placeholder{
 }
 @media (max-width: 600px){
     .main-container{
-        width: 100vw;
+        width: 50vw;
         margin: 0;
         margin-left:30px ;
     }
@@ -810,10 +830,48 @@ input::placeholder{
     .main-container-img img{
         margin-left:200px ;
     }
+    .main-content-pri {
+        width: 300px;
+    }
+    .main-content-pri img{
+        width: 300px;
+    }
+    .main-content-sec{
+        width: 300px;
+    }
+    .main-sec-deco img {
+        width: 300px;
+    }
+    .main-container-img img{
+        width: 300px;
+    }
     .addcart-container{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 0;
         margin-left: 30px;
-        height: 2000px;
+        height: 2500px;
+    }
+    .addcart-container-price{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .addcart-container-price-content{
+        width: 100%;
+        margin-left: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .addcart-price-button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .addcart-container-img{
         display: flex;
@@ -821,6 +879,12 @@ input::placeholder{
     }
     .addcart-container-img img{
         margin: 50px 0;
+    }
+    .addcart-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 300px;
     }
     .addcart-price-paraf{
         display: flex;
@@ -830,7 +894,7 @@ input::placeholder{
     }
     .addcart-container-reviews{
         top: 90%;
-        left: 10%;
+        left: 30%;
     }
     .reviews{
         margin: 30px;
@@ -838,14 +902,64 @@ input::placeholder{
     .info1-paraf{
         display: none;
     }
+    .info1-title{
+        width: 300px;
+    }
+    .info2-card{
+        margin: 0;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 150px;
+    }
+    .info2-card img{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .info3{
         margin: 30px;
+        height: auto;
+    }
+    .info3 img {
+        width: 350px;
+    }
+    .info4{
+        width: 300px;
+    }
+    .info4-img img{
+        width:450px;
+        height: 700px;
+
+    }
+    .info4-container .info4-title{
+        width: 300px;
+        left: 30%;
+    }
+    .info4-container .info4-paraf{
+        width: 300px;
+        left: 30%;
     }
     .info5{
         margin: 30px;
     }
+    .info5-title h2{
+        font-size: 40px;
+        width: 300px;
+    }
     .form{
         margin: 30px;
+    }
+    .form-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-title h2{
+        font-size: 40px;
+        width: 300px;
     }
     .form-container{
         margin-left: 100px;
@@ -856,8 +970,10 @@ input::placeholder{
         align-items: center;
     }
     .footer-logo{
-        margin: 50px;
+        margin: 20px 0;
     }
-    
-    
+    .footer-logo img{
+        width: 300px;
+        margin-left:50px ;
+    }
 }

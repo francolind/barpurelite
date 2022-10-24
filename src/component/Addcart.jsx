@@ -11,15 +11,18 @@ export const Addcart = ()=>{
     const [price, setPrice] = useState(4.20)
     const [resul, setResult] = useState('');
     
- 
+
+    
     const increaseCount = () =>{
-        setCount(count + 1 )
-    }
-    const diminishCount = () =>{
-        setCount(count - 1 )
+        setCount( count + 1 )
+        setPrice( parseFloat(price + 4.20).toFixed(2))}
+
+    const diminishCount = () =>{if(count >= 2){
+        setCount( count - 1 )
+        setPrice( parseFloat(price - 4.20 ).toFixed(2))}
     }
       
-
+    
     return (
     <div className='addcart-container'>
         <div className='addcart-container-img'>
